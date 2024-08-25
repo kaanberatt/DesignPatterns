@@ -1,6 +1,6 @@
 ﻿using StrategyPattern.Abstract;
 using StrategyPattern.Enums;
-using StrategyPattern.Strategies.Concrete;
+using StrategyPattern.Strategies.BankStrategies;
 
 namespace StrategyPattern.Factories;
 

@@ -2,7 +2,7 @@
 using StrategyPattern.Enums;
 using StrategyPattern.Models;
 
-namespace StrategyPattern.Strategies.Concrete;
+namespace StrategyPattern.Strategies.BankStrategies;
 
 public class VakıfbankBankStrategy : IBankStrategy
 {

@@ -2,13 +2,12 @@
 using StrategyPattern.Enums;
 using StrategyPattern.Models;
 
-namespace StrategyPattern.Strategies.Concrete
+namespace StrategyPattern.Strategies.BankStrategies;
+
+public class ZiraatBankStrategy : IBankStrategy
 {
-    internal class ZiraatBankStrategy : IBankStrategy
+    public void ProcessExecute(PaymentModel model)
     {
-        public void ProcessExecute(PaymentModel model)
-        {
-            Console.WriteLine($"{nameof(BankNameEnum.ZiraatBank)} Redirected to 3d service");
-        }
+        Console.WriteLine($"{nameof(BankNameEnum.ZiraatBank)} Redirected to 3d service");
     }
 }
