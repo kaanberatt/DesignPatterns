@@ -32,3 +32,19 @@ The Chain of Responsibility design pattern lets a request go through a series of
 
 - **Keyed Services:** Keyed services are used to register and resolve different service implementations based on specific keys, providing flexibility in dependency injection.
 - **Modular Handlers:** Each handler is responsible for a distinct part of the payment processing workflow, making the system easy to maintain and extend.
+
+## c) Observer Pattern
+
+## Summary
+
+Observer Pattern, gözlemlenen nesnenin (Subject) durum değişikliklerini ona bağlı gözlemcilere (Observer) otomatik olarak iletir. Bu yaklaşım, gevşek bağlılık sağlar ve bir nesnenin durumunu izleyen çok sayıda bileşenin senkronize kalmasını kolaylaştırır.
+
+## Project Structure
+
+- **Abstract:** `ISubject` ve `IObserver` arayüzleri gözlemci ve gözlemlenen sözleşmesini belirler.
+- **Concrete:** `StockSubject`, `NewsPublisher`, `InvestorObserver` ve `NewsSubscriber` sınıfları farklı senaryolar için özelleştirilmiş uygulamalar sunar.
+
+## Usage Examples
+
+- **Borsa Senaryosu:** `StockSubject` sınıfı güncel hisse fiyatını tutar. `InvestorObserver` nesneleri fiyat değişimlerinde otomatik bildirim alır.
+- **Haber Senaryosu:** `NewsPublisher` yeni haber yayınladığında, `NewsSubscriber` aboneleri kategori ve başlık bilgisiyle bilgilendirilir. Aboneler çalışma zamanında kaydedilip çıkarılabilir.
