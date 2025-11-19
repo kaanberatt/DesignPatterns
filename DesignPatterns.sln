@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
@@ -6,6 +6,8 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{FFA21A25-B3B1-4C7D-ABC2-B1AF2571E2F7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibilityPattern", "ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj", "{054B611B-A27B-4A5C-B511-DAAE9B8DE78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{CA9E39EA-02F5-48B5-BF1F-DBFF2DE15110}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{054B611B-A27B-4A5C-B511-DAAE9B8DE78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{054B611B-A27B-4A5C-B511-DAAE9B8DE78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{054B611B-A27B-4A5C-B511-DAAE9B8DE78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA9E39EA-02F5-48B5-BF1F-DBFF2DE15110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA9E39EA-02F5-48B5-BF1F-DBFF2DE15110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA9E39EA-02F5-48B5-BF1F-DBFF2DE15110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA9E39EA-02F5-48B5-BF1F-DBFF2DE15110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
